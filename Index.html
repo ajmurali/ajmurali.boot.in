@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proj8-Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+</head>
+<body style="background-color:rgb(245, 244, 248)">
+    <div class="master">
+        <div class="container-fluid ms-0  px-0 " >
+            <nav class="bg-white navbar  py-2 navbar-expand-lg navbar navbar-light mx-0 ps-0 " width="100%">
+                <div class=" container-fluid ms-0  px-0">
+                    <a href="#"> <img src="logo.svg" alt="logo"> </a>
+                 <div class="navbar-collapse collapse" id="basic-navbar-nav">
+                   <div class="navbar-nav">
+                    <div class="nav-item dropdown">   <a href="#" class="nav-link dropdown-toggle " > Browse    </a>        </div>
+                    <div class="nav-item dropdown">   <a href="#" class="nav-link dropdown-toggle " > Landings </a>      </div>
+                    <div class="nav-item dropdown">   <a href="#" class="nav-link dropdown-toggle " > Pages </a>         </div>
+                    <div class="nav-item dropdown">   <a href="#" class="nav-link dropdown-toggle " > Accounts </a>      </div>
+                    <div class="nav-item dropdown">   <a href="#" class="  d-block nav-link fs-3 lh-1 pt-0" > ... </a>   </div>
+                   </div>
+                 </div>
+                 <form class="d-flex align-items-center mt-3 mt-lg-0 ms-lg-3  " style="position: absolute; top :auto; left :36%">
+                    <input type="search" id="formSearch" placeholder="     Search Courses" class="ps-6 rounded-3">
+                    <img src="magnifying-glass-1976105.svg" class="position-absolute ps-1 lh-1" height="17px" width="25px" alt="">
+                 </form>
+                 <div class="navbar-nav navbar-right-wrap ms-auto d-flex nav-top-wrap navbar-nav">
+                    <span class="d-inline-flex  flex-row-reverse align-items-center">
+                        <div>
+                            <button type="button" title="button" class="btn position-relative"><img src="avatar-1.jpg" style="width:40px; height:40px; border-radius: 50%;" alt="">
+                                <span class="position-absolute  end-auto bottom-0  translate-middle p-2 bg-success border border-l rounded-circle"> </span> </button>
+                        </div>
+                        <div > 
+                            <button type="button" title="button" class="btn rounded-circle btn-light "><img src="ring-bell.png" style="width:25px; height:25px; " alt="">
+                                <span class="position-absolute top-25 start-auto translate-middle p-2 bg-primary border border-light rounded-circle"> </span> </button>
+                        </div> 
+                    </span>
+                 </div>   
+                </div>
+            </nav>
+
+        </div>
+        <div class="bg-primary">
+            <div class="container">
+                <div class="align-items-center g-0 row">
+                    <div class="col-xl-5 col-lg-6 col-md-12">
+                        <div class="py-5 py-lg-0">
+                            <h1 class="text-white display-4 fw-bold fs-1 text-justify">Welcome to Geeks UI Learning Application</h1>
+                            <p class="text-white-50 mb-4 lead text-justify fs-3">Hand-picked Instructor and expertly crafted courses, designed for the modern students and entrepreneur.</p>
+                            <a class="btn btn-success" href="/marketing/courses/course-filter-page/">Browse Courses</a> 
+                            <a class="btn btn-light" href="/authentication/sign-in/">Are You Instructor?</a>
+                        </div>
+                    </div>
+                    <div class="text-lg-end text-center col-xl-7 col-lg-6 col-md-12">
+                        <img src="hero-img.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-row justify-content-center pt-3 bg-light ">
+            <div class="d-inline-flex  flex-row align-items-center ">
+                <div><img src="cam-recorder.png" alt="#" class="pe-2"></div>
+                <div  class="ms-2">
+                    <h4>30,000 Online Courses</h4>
+                    <p>Enjoy a variety of fresh topics</p>
+                </div>
+                
+            </div>
+            <div class="d-inline-flex  flex-row align-items-center px-5"> 
+                <div><img src="student.png" alt="#" class="pe-2 "></div>
+                <div class="mx-2">
+                    <h4>Expert Instruction</h4>
+                    <p>Find the right instructor for you</p>
+                </div>
+            </div>
+            <div class="d-inline-flex  flex-row  align-items-center " > 
+                <div><img src="time.png" alt="#" class="pe-2"></div>
+                <div  class="ms-2">
+                    <h4>Lifetime access</h4>
+                    <p> Learn on your schedule</p>
+                </div>
+            </div>
+        </div>
+
+<!-- reccommended section -->
+    <div class="pt-lg-12 pb-lg-3 pt-8 pb-6">
+        <div class="container">
+            <div class="mb-4 row align-items-center">
+                <div class="col ">
+                    <h2 class="mb-0 mx-2 mb-4" >Recommended to you</h2>
+                </div>
+                <div class="position-relative ">
+                    <div class="slick-slider pb-sm-5 mb-5 slick-slider-wrapper slick-initialized d-inline-flex  flex-row align-items-center" dir="ltr" >
+                        <button class="slick-arrow slick-prev  " title="button" style=" border: 0px white; border-radius: 50%; height:3px;" type="button" > <img src="left.png" alt="">
+                        </button>
+                        <div class="slick-list d-flex flex-row">
+                            <div class="slick-track">
+                                <div class="slick-slide slick-active d-inline-flex  flex-row" style="width:279px;">
+                                    <div class="item px-md-1" style="width: 100%; display: inline-block;">
+                                    <div class="mb-4 card-hover mx-2 card ">
+                                        <a href="#">
+                                            <img src="course-javascript.jpg" class="card-img-top rounded-top-md" alt="#">
+                                        </a>
+                                        <div class="card-body d-flex flex-column">
+                                            <h3 class="h4 mb-2 text-truncate-line-2 ">
+                                                <a href="/" style="text-decoration:none; color:black">A Complete Beginner’s Guide to JavaScript</a>
+                                            </h3>
+                                            
+                                            <p>Advance</p>
+                                            <div class="d-flex flex-row">
+                                            <p class="fw-bold">$700 </p>
+                                            <p style="text-decoration:line-through" class="text-muted d-inline ms-2"> $850</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class=" g-0 row justify-content-center" >
+                                               Guy Hawkins
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <!-- next card  -->
+                                <div class="slick-slide slick-active d-inline-flex  flex-row" style="width:279px;">
+                                    <div class="item px-md-1" style="width: 100%; display: inline-block;">
+                                    <div class="mb-4 card-hover mx-2 card">
+                                        <a href="#">
+                                            <img src="course-nodejs.jpg" class="card-img-top rounded-top-md" alt="#">
+                                        </a>
+                                        <div class="card-body d-flex flex-column">
+                                            <h3 class="h4 mb-2 text-truncate-line-2 ">
+                                                <a href="/" style="text-decoration:none; color:black ; overflow: hidden;" >Beginning Node.js,Esxpress & MongoDB </a>
+                                            </h3>
+                                            
+                                            <p>Intermediate</p>
+                                            <div class="d-flex flex-row">
+                                            <p class="fw-bold">$800 </p>
+                                            <p style="text-decoration:line-through" class="text-muted d-inline ms-2"> $950</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class=" g-0 row justify-content-center" >
+                                                Sina Ray
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <!-- next card -->
+                                <div class="slick-slide slick-active d-inline-flex  flex-row" style="width:279px;">
+                                    <div class="item px-md-1" style="width: 100%; display: inline-block;">
+                                    <div class="mb-4 card-hover mx-2 card">
+                                        <a href="#">
+                                            <img src="course-python.jpg" class="card-img-top rounded-top-md" alt="#">
+                                        </a>
+                                        <div class="card-body d-flex flex-column">
+                                            <h3 class="h4 mb-2 text-truncate-line-2 ">
+                                                <a href="/" style="text-decoration:none; color:black">The Python Course: build web application</a>
+                                            </h3>
+                                            
+                                            <p>Beginner</p>
+                                            <div class="d-flex flex-row">
+                                            <p class="fw-bold">$600 </p>
+                                            <p style="text-decoration:line-through" class="text-muted d-inline ms-2"> $750</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class=" g-0 row justify-content-center" >
+                                                Ted Hawkins
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- next card -->
+                                <div class="slick-slide slick-active d-inline-flex  flex-row" style="width:279px;">
+                                    <div class="item px-md-1" style="width: 100%; display: inline-block;">
+                                    <div class="mb-4 card-hover mx-2 card">
+                                        <a href="#">
+                                            <img src="course-angular.jpg" class="card-img-top rounded-top-md" alt="#">
+                                        </a>
+                                        <div class="card-body d-flex flex-column">
+                                            <h3 class="h4 mb-2 text-truncate-line-2 ">
+                                                <a href="/" style="text-decoration:none; color:black">Angular - the complete guide for beginner</a>
+                                            </h3>
+                                            
+                                            <p>Intermediate</p>
+                                            <div class="d-flex flex-row">
+                                            <p class="fw-bold">$600 </p>
+                                            <p style="text-decoration:line-through" class="text-muted d-inline ms-2"> $750</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class=" g-0 row justify-content-center" >
+                                                Jacob Jones
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                              
+
+                            </div>
+                        </div>
+                        <button class="slick-arrow slick-next " title="button" style=" border: 0px white; border-radius: 50%; height:3px;" type="button" > <img src="right-arrow.png" alt="#">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- most popular section -->
+
+    <div class="pt-lg-12 pb-lg-3 pt-8 pb-6">
+        <div class="container">
+            <div class="mb-4 row align-items-center">
+                <div class="col ">
+                    <h2 class="mb-0 mx-2 mb-4" >Most Popular</h2>
+                </div>
+                <div class="position-relative ">
+                    <div class="slick-slider pb-sm-5 mb-5 slick-slider-wrapper slick-initialized d-inline-flex  flex-row align-items-center" dir="ltr" >
+                        <button class="slick-arrow slick-prev  " title="button" style=" border: 0px white; border-radius: 50%; height:3px;" type="button" > <img src="left.png" alt="">
+                        </button>
+                        <div class="slick-list d-flex flex-row">
+                            <div class="slick-track">
+                                <div class="slick-slide slick-active d-inline-flex  flex-row" style="width:279px;">
+                                    <div class="item px-md-1" style="width: 100%; display: inline-block;">
+                                    <div class="mb-4 card-hover mx-2 card ">
+                                        <a href="#">
+                                            <img src="course-css.jpg" class="card-img-top rounded-top-md" alt="#">
+                                        </a>
+                                        <div class="card-body d-flex flex-column">
+                                            <h3 class="h4 mb-2 text-truncate-line-2 ">
+                                                <a href="/" style="text-decoration:none; color:black">CSS: Ultimate CSS course beginner to advanced</a>
+                                            </h3>
+                                            
+                                            <p>Beginner</p>
+                                            <div class="d-flex flex-row">
+                                            <p class="fw-bold">$600 </p>
+                                            <p style="text-decoration:line-through" class="text-muted d-inline ms-2"> $750</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class=" g-0 row justify-content-center" >
+                                                Juanita Bell
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <!-- next card  -->
+                                <div class="slick-slide slick-active d-inline-flex  flex-row" style="width:279px;">
+                                    <div class="item px-md-1" style="width: 100%; display: inline-block;">
+                                    <div class="mb-4 card-hover mx-2 card">
+                                        <a href="#">
+                                            <img src="course-gatsby.jpg" class="card-img-top rounded-top-md" alt="#">
+                                        </a>
+                                        <div class="card-body d-flex flex-column">
+                                            <h3 class="h4 mb-2 text-truncate-line-2 ">
+                                                <a href="/" style="text-decoration:none; color:black ; overflow: hidden;" >Revolutionize how you build the website </a>
+                                            </h3>
+                                            
+                                            <p>Advance</p>
+                                            <div class="d-flex flex-row">
+                                            <p class="fw-bold">$800 </p>
+                                            <p style="text-decoration:line-through" class="text-muted d-inline ms-2"> $850</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class=" g-0 row justify-content-center" >
+                                                Jenny Wilson
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <!-- next card -->
+                                <div class="slick-slide slick-active d-inline-flex  flex-row" style="width:279px;">
+                                    <div class="item px-md-1" style="width: 100%; display: inline-block;">
+                                    <div class="mb-4 card-hover mx-2 card">
+                                        <a href="#">
+                                            <img src="course-html.jpg" class="card-img-top rounded-top-md" alt="#">
+                                        </a>
+                                        <div class="card-body d-flex flex-column">
+                                            <h3 class="h4 mb-2 text-truncate-line-2 ">
+                                                <a href="/" style="text-decoration:none; color:black">HTML Full Course - Build a Website Tutorial</a>
+                                            </h3>
+                                            
+                                            <p>Beginner</p>
+                                            <div class="d-flex flex-row">
+                                            <p class="fw-bold">$550 </p>
+                                            <p style="text-decoration:line-through" class="text-muted d-inline ms-2"> $700</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class=" g-0 row justify-content-center" >
+                                                Miston Wilson
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- next card -->
+                                <div class="slick-slide slick-active d-inline-flex  flex-row" style="width:279px;">
+                                    <div class="item px-md-1" style="width: 100%; display: inline-block;">
+                                    <div class="mb-4 card-hover mx-2 card">
+                                        <a href="#">
+                                            <img src="course-laravel.jpg" class="card-img-top rounded-top-md" alt="#">
+                                        </a>
+                                        <div class="card-body d-flex flex-column">
+                                            <h3 class="h4 mb-2 text-truncate-line-2 ">
+                                                <a href="/" style="text-decoration:none; color:black">The Ultimate Beginner’s Guide to Learn Laravel </a>
+                                            </h3>
+                                            
+                                            <p>Beginner</p>
+                                            <div class="d-flex flex-row">
+                                            <p class="fw-bold">$170 </p>
+                                            <p style="text-decoration:line-through" class="text-muted d-inline ms-2"> $220</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class=" g-0 row justify-content-center" >
+                                                Jacob Jones
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                              
+
+                            </div>
+                        </div>
+                        <button class="slick-arrow slick-next " title="button" style=" border: 0px white; border-radius: 50%; height:3px;" type="button" > <img src="right-arrow.png" alt="#">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trending Section -->
+    <div class="pt-lg-12 pb-lg-3 pt-8 pb-6">
+        <div class="container">
+            <div class="mb-4 row align-items-center">
+                <div class="col ">
+                    <h2 class="mb-0 mx-2 mb-4" >Trending</h2>
+                </div>
+                <div class="position-relative ">
+                    <div class="slick-slider pb-sm-5 mb-5 slick-slider-wrapper slick-initialized d-inline-flex  flex-row align-items-center" dir="ltr" >
+                        <button class="slick-arrow slick-prev  " title="button" style=" border: 0px white; border-radius: 50%; height:3px;" type="button" > <img src="left.png" alt="">
+                        </button>
+                        <div class="slick-list d-flex flex-row">
+                            <div class="slick-track">
+                                <div class="slick-slide slick-active d-inline-flex  flex-row" style="width:279px;">
+                                    <div class="item px-md-1" style="width: 100%; display: inline-block;">
+                                    <div class="mb-4 card-hover mx-2 card ">
+                                        <a href="#">
+                                            <img src="course-python.jpg" class="card-img-top rounded-top-md" alt="#">
+                                        </a>
+                                        <div class="card-body d-flex flex-column">
+                                            <h3 class="h4 mb-2 text-truncate-line-2 ">
+                                                <a href="/" style="text-decoration:none; color:black">The Python Course: build web application</a>
+                                            </h3>
+                                            
+                                            <p>Beginner</p>
+                                            <div class="d-flex flex-row">
+                                            <p class="fw-bold">$600 </p>
+                                            <p style="text-decoration:line-through" class="text-muted d-inline ms-2"> $750</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class=" g-0 row justify-content-center" >
+                                                Ted Hawkins
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <!-- next card  -->
+                                <div class="slick-slide slick-active d-inline-flex  flex-row" style="width:279px;">
+                                    <div class="item px-md-1" style="width: 100%; display: inline-block;">
+                                    <div class="mb-4 card-hover mx-2 card">
+                                        <a href="#">
+                                            <img src="course-graphQI.jpg" class="card-img-top rounded-top-md" alt="#">
+                                        </a>
+                                        <div class="card-body d-flex flex-column">
+                                            <h3 class="h4 mb-2 text-truncate-line-2 ">
+                                                <a href="/" style="text-decoration:none; color:black ; overflow: hidden;" > Introduction to graphQL for beginners </a>
+                                            </h3>
+                                            
+                                            <p>Beginner</p>
+                                            <div class="d-flex flex-row">
+                                            <p class="fw-bold">$600 </p>
+                                            <p style="text-decoration:line-through" class="text-muted d-inline ms-2"> $750</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class=" g-0 row justify-content-center" >
+                                                Brooklyn Simmons
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <!-- next card -->
+                                <div class="slick-slide slick-active d-inline-flex  flex-row" style="width:279px;">
+                                    <div class="item px-md-1" style="width: 100%; display: inline-block;">
+                                    <div class="mb-4 card-hover mx-2 card">
+                                        <a href="#">
+                                            <img src="course-wordpress.jpg" class="card-img-top rounded-top-md" alt="#">
+                                        </a>
+                                        <div class="card-body d-flex flex-column">
+                                            <h3 class="h4 mb-2 text-truncate-line-2 ">
+                                                <a href="/" style="text-decoration:none; color:black">Complete WordPress theme & plugin development</a>
+                                            </h3>
+                                            
+                                            <p>Beginner</p>
+                                            <div class="d-flex flex-row">
+                                            <p class="fw-bold">$600 </p>
+                                            <p style="text-decoration:line-through" class="text-muted d-inline ms-2"> $750</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class=" g-0 row justify-content-center" >
+                                                Claire Robertson
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- next card -->
+                                <div class="slick-slide slick-active d-inline-flex  flex-row" style="width:279px;">
+                                    <div class="item px-md-1" style="width: 100%; display: inline-block;">
+                                    <div class="mb-4 card-hover mx-2 card">
+                                        <a href="#">
+                                            <img src="course-react.jpg" class="card-img-top rounded-top-md" alt="#">
+                                        </a>
+                                        <div class="card-body d-flex flex-column">
+                                            <h3 class="h4 mb-2 text-truncate-line-2 ">
+                                                <a href="/" style="text-decoration:none; color:black">How to easily create a website with React </a>
+                                            </h3>
+                                            
+                                            <p>Beginner</p>
+                                            <div class="d-flex flex-row">
+                                            <p class="fw-bold">$170 </p>
+                                            <p style="text-decoration:line-through" class="text-muted d-inline ms-2"> $220</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class=" g-0 row justify-content-center" >
+                                                April Noms
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                              
+
+                            </div>
+                        </div>
+                        <button class="slick-arrow slick-next " title="button" style=" border: 0px white; border-radius: 50%; height:3px;" type="button" > <img src="right-arrow.png" alt="#">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer bg-transparent">
+        <div class="container">
+            <div class="align-items-center g-0 border-top py-2 row">
+                <div class="text-center text-md-start col-md-6 col-sm-12">
+                    <p>© 2022 Geeks. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <nav class="nav nav-footer justify-content-center justify-content-md-end">
+                        <p class="nav-link" style="color:black">Privacy</p>
+                        <p class="nav-link" style="color:black">Terms</p>
+                        <p class="nav-link" style="color:black">Feedback</p>
+                        <p class="nav-link" style="color:black">Support</p>
+
+                    </nav>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    </div>
+
+        
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
